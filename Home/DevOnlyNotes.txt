@@ -1,0 +1,39 @@
+File Structure Overview
+
+./Home
+	>Assets                //this is for visual or audio files used in the stylizing of the site itself
+	>Collection            //this is where we will store all of the doujinshi after we organize it
+		>1                 //its infinitely easier to just have the folder names 1,2,3 etc as we upload so i can easily loop through all the directories
+			>1.jpg
+			>2.jpg         //again it makes the programming side way easier
+			>3.jpg
+			>etc.jpg
+		>cover.jpg         //this will be the image displayed as the icon for the doujinshi
+		>properties.html   //all the properties> title, artist, tags, etc
+	>all the html, php, and javascript source
+	>DevOnlyNotes.txt      //this text file
+
+
+
+
+
+
+
+
+Navigation bar links:
+	
+	Search
+	Account
+	Login/logout
+	forums
+	About
+
+
+
+
+JPG or PNG file type only for all images (many browsers do not support other extensios)
+
+I decided on using html as the property file type, its easier and faster than parsing through a text file. Refer to the example (1) in collections
+
+I'm going to have to use php on the server side to read through all the directories and send the info to the client side javascript.
+
